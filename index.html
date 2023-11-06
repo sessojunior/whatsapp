@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WahtsApp Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!--SIDEBAR-->
+        <aside class="sidebar">
+            <!--SIDEBAR-HEADER-->
+            <header>
+                <nav>
+                    <div class="avatar">
+                        <a href="#"><img src="img/avatar1.png" alt="Pessoa logada"></a>
+                    </div>
+                    <ul class="actions">
+                        <li class="action"><a href="#"><i class="fa fa-spinner fa-spin"></i></a></li>
+                        <li class="action"><a href="#"><i class="fa fa-comment-alt"></i></a></li>
+                        <li class="action"><a href="#"><i class="fa fa-ellipsis-v"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!--SIDEBAR-ALERT-->
+            <section class="alert">
+                <div class="icon"><i class="fa fa-bell-slash"></i></div>
+                <div class="description">
+                    <p class="title">Receba notificações de novas mensagens</p>
+                    <p class="subtitle">Ativar notificações na área de trabalho <i class="fa fa-angle-right"></i></p>
+                </div>
+            </section>
+            <!--SIDEBAR-SEARCH-->
+            <section class="search">
+                <form action="#">
+                    <div class="combo">
+                        <input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </section>
+            <!--SIDEBAR-CONTACTS-->
+            <section class="contacts">
+                <nav>
+                    <ul class="items">
+                        <li class="item active">
+                            <div class="avatar"><img src="img/avatar4.png" alt="Contato"></div>
+                            <div class="message">
+                                <div class="name">Sabrina Matos</div>
+                                <div class="description"><i class="fa fa-check blue"></i> Oi, tudo bem?</div>
+                            </div>
+                            <div class="info">
+                                <div class="time">22:40</div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="avatar"><img src="img/avatar3.png" alt="Contato"></div>
+                            <div class="message">
+                                <div class="name">João Augusto</div>
+                                <div class="description">Está disponível para um freela?</div>
+                            </div>
+                            <div class="info">
+                                <div class="time">12:30</div>
+                                <div class="count">3</div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="avatar"><img src="img/avatar2.png" alt="Contato"></div>
+                            <div class="message">
+                                <div class="name">Maria Silva</div>
+                                <div class="description"><i class="fa fa-check-double blue"></i> O projeto ficou perfeito, obrigada!</div>
+                            </div>
+                            <div class="info">
+                                <div class="time">08:20</div>
+                                <div class="count">5</div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+        <!--CHAT-->
+        <main class="chat">
+            <!--CHAT-HEADER-->
+            <header class="topbar">
+                <div class="user">
+                    <div class="avatar">
+                        <a href="#">
+                            <img src="img/avatar4.png" alt="Pessoa que está falando">
+                        </a>
+                    </div>
+                    <div class="name">Sabrina Matos</div>
+                </div>
+                <ul class="actions">
+                    <li class="action"><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li class="action"><a href="#"><i class="fa fa-paperclip"></i></a></li>
+                    <li class="action"><a href="#"><i class="fa fa-ellipsis-v"></i></a></li>
+                </ul>
+            </header>
+            <!--CHAT-CONTENT-->
+            <section class="content">
+                <ul class="messages">
+                    <li class="message sender">
+                        <div class="description">Olá, bom dia!</div>
+                        <div class="info">
+                            <div class="time">16:49</div>
+                            <i class="fa fa-check-double"></i>
+                        </div>
+                    </li>
+                    <li class="message recipient">
+                        <div class="description">Oi, tudo bem? Gostaria de te perguntar uma coisa.</div>
+                        <div class="info">
+                            <div class="time">16:49</div>
+                            <i class="fa fa-check"></i>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!--CHAT-FOOTER-->
+            <footer class="bottombar">
+                <div class="emoticon"><i class="far fa-grin"></i></div>
+                <form action="#" class="form">
+                    <input type="text" name="message" id="message" placeholder="Digite uma mensagem">
+                </form>
+                <ul class="actions">
+                    <li class="action"><a href="#"><i class="fa fa-microphone"></i></a></li>
+                </ul>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
